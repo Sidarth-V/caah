@@ -82,7 +82,7 @@ setInterval(function(){
   var randomNumber = Math.round( Math.random() * (words.length-1) ); 
   var message = words[randomNumber]
     io.sockets.emit('channel_3', message);
-}, 2000);
+}, 10000);
 
 
 
