@@ -37,12 +37,12 @@
 var t = setInterval(function() { 
   var randomNumber = Math.round( Math.random() * (words.length-1) ); 
   $('#changing').html( words[ randomNumber ] ); 
-}, 2000);
+}, 10000);
 
 setInterval(
   function() {
     document.getElementById("input").value = "";
-  }, 10000);
+  }, 30000);
     </script>
 </body>
 </html>

@@ -130,7 +130,7 @@ ul {
 }
 
 .username {
-  font-weight: 700;
+  font-weight: 300;
   overflow: hidden;
   padding-right: 15px;
   text-align: right;
@@ -162,7 +162,7 @@ ul {
   line-height: 40px;
   box-shadow: 10px 10px 10px 10px #000000;
   text-decoration-color:#ffffff; 
-  border: 1 px solid white;
+  border: 1.5px solid white;
   border-radius: 30px;
   min-height: 400px;
   max-height: 400px;
