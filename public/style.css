@@ -11,13 +11,13 @@ html {
 
 html, input {
   font-family:
-    "HelveticaNeue-Light",
-    "Helvetica Neue Light",
     "Helvetica Neue",
     Helvetica,
     Arial,
     "Lucida Grande",
     sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 
 html, body {
@@ -168,6 +168,6 @@ ul {
   max-height: 400px;
   max-width: 300px;
   overflow-x: hidden;
-  margin: 20px;
+  margin: 30px;
   background-image:url('/images/bbg.png');
 }
