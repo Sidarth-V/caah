@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,6 +12,7 @@
       <div class="flex-container">
       <div style="padding: 20px ">
       <ul id="messages" style = "position:static; color: white"></ul>
+      <p id="judge" style = "position:static; color: white"></p> 
       <br><br><br>
         <input class="inputMessage" placeholder="Be sarcastic AF.." autocomplete="off" />
       </div>
@@ -34,9 +35,13 @@
 <script>
     var socket = io();
      var btnSend = document.getElementById('messages');
+     var jud = document.getElementById('judge');
 
       socket.on('channel_3', function (data) {
       btnSend.innerHTML = data;  });
+
+      socket.on('channel_4', function (data) {
+      jud.innerHTML = data;  });
 </script>
 </body>
 </html>
